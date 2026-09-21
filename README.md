@@ -40,10 +40,15 @@ transforms, and two write-ups that ship with their data.
 - [Ink negative controls](https://github.com/kadenpool/scroll-lineup/tree/main/reports/ink-negative-controls): four controls that tell a real ink reading from papyrus texture, on PHerc0846A, PHerc0813 and PHerc0211.
 - [A First Letters attempt on PHerc1203](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc1203-first-letters): two scans, no published transform between them, and what it took to read across.
 
+## Helping with others' work
+
+- [#1809](https://github.com/ScrollPrize/villa/issues/1809): comments on Bullo27's crash report; his fix, [#1817](https://github.com/ScrollPrize/villa/pull/1817), uses my test server and my macOS run in its proof table.
+- [#1818](https://github.com/ScrollPrize/villa/pull/1818#issuecomment-5748183068): a reading test on spelufo's bicubic-interpolation branch, to put a number beside its pictures.
+- Independent checks of others' results: [corpus-ink-survey #1](https://github.com/TAUIL-Abd-Elilah/corpus-ink-survey/issues/1) and [ink9um-z-window-selection #1](https://github.com/tarikcankorkmaz00/ink9um-z-window-selection/issues/1).
+
 ## Outside villa
 
 - [ScrollFiesta #16](https://github.com/Hob3rMallow/scrollfiesta_public/pull/16): a published atlas mesh keeps its texture coordinates when converted for villa's tools.
-- Independent checks of others' results: [corpus-ink-survey #1](https://github.com/TAUIL-Abd-Elilah/corpus-ink-survey/issues/1) and [ink9um-z-window-selection #1](https://github.com/tarikcankorkmaz00/ink9um-z-window-selection/issues/1).
 
 ---
 
