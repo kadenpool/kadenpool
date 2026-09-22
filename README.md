@@ -37,8 +37,8 @@ transforms, and two write-ups that ship with their data.
 
 ## Reports, each with its data and a script that re-derives its numbers
 
-- [Ink negative controls](https://github.com/kadenpool/scroll-lineup/tree/main/reports/ink-negative-controls): four controls that tell a real ink reading from papyrus texture, on PHerc0846A, PHerc0813 and PHerc0211.
-- [A First Letters attempt on PHerc1203](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc1203-first-letters): two scans, no published transform between them, and what it took to read across.
+- [Ink negative controls](https://github.com/kadenpool/scroll-lineup/tree/main/reports/ink-negative-controls): four controls that tell a real ink reading from papyrus texture, on PHerc0846A, PHerc0813 and PHerc0211. No letters were found on any of them.
+- [A First Letters attempt on PHerc1203](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc1203-first-letters): two scans, no published transform between them, and what it took to read across. No letters were found.
 
 ## Helping with others' work
 
