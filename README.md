@@ -25,14 +25,14 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - [#1847](https://github.com/ScrollPrize/villa/pull/1847) (open): a remote chunk fetch that fails at the seed point ends `vc_grow_seg_from_seed` with one line and exit 1, not an abort. Report: [#1846](https://github.com/ScrollPrize/villa/issues/1846).
 - [#1676](https://github.com/ScrollPrize/villa/pull/1676) (merged): a region past the edge of a dataset is refused instead of written past the buffer, and every caller now checks.
 - [#1682](https://github.com/ScrollPrize/villa/pull/1682) (merged): `create_level_dataset` works under zarr 3, and `overwrite=False` no longer empties a level.
-- [#1717](https://github.com/ScrollPrize/villa/pull/1717) (draft): a render partly outside its volume says how much: 47.1 % on a published surface.
+- [#1717](https://github.com/ScrollPrize/villa/pull/1717) (open): a render partly outside its volume says how much: 47.1 % on a published surface.
 - [#1766](https://github.com/ScrollPrize/villa/pull/1766) (open) and [#1765](https://github.com/ScrollPrize/villa/issues/1765): the 2 um ink model's README window, centred on the surface, reproduces the published ink maps.
 - [#1769](https://github.com/ScrollPrize/villa/pull/1769) (draft): VC3D stops seeding a bounding box from the `-1` missing-point marker.
 - [#1664](https://github.com/ScrollPrize/villa/pull/1664) (closed to stay under villa's open-PR limit; the problem is unchanged): a failed ink-label download is reported instead of a blank image.
 
 ## Found in the catalogue and transforms
 
-- [#1835](https://github.com/ScrollPrize/villa/issues/1835): four published volume transforms do not fit their own published landmarks; on three the fault is in the landmark sets, not the matrices, and the fourth is a genuine miss ([#1843](https://github.com/ScrollPrize/villa/issues/1843)).
+- [#1835](https://github.com/ScrollPrize/villa/issues/1835): four published volume transforms do not fit their own published landmarks; on three, no affine fits those landmarks any better than the published matrix, and the fourth is a genuine miss ([#1843](https://github.com/ScrollPrize/villa/issues/1843)).
 - [#1843](https://github.com/ScrollPrize/villa/issues/1843): PHerc1667's 1.129 um to 2.399 um transform misses its landmarks by 123 um; a fit to the same landmarks misses by 2.2 um.
 - [#1845](https://github.com/ScrollPrize/villa/issues/1845): on one segment, rendering from a mesh carried in from another scan, instead of the one made in the scan being rendered, costs 0.04 AUC.
 - [#1730](https://github.com/ScrollPrize/villa/issues/1730): 20 published segments name a source volume scanned after the segment was made.
