@@ -12,6 +12,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - SurgeFok's [vesuvius-catalog-check](https://github.com/SurgeFok/vesuvius-catalog-check) checks its own detector against [#1730](https://github.com/ScrollPrize/villa/issues/1730): it finds 20, #1730 reports 20.
 - nerln re-ran [#1845](https://github.com/ScrollPrize/villa/issues/1845)'s harness on another machine, matched its fine-mesh AUC (0.896687 against 0.8967176), and used it to test three ways the renderer can combine its samples (max, mean and median); none helped.
 - AndreasHad04 checked the pipeline behind [#1867](https://github.com/ScrollPrize/villa/issues/1867) against [#1845](https://github.com/ScrollPrize/villa/issues/1845): 0.9123 on the same 178,146 validation pixels, where #1845 reports 0.912.
+- AndreasHad04 closed his own README fix, [#1813](https://github.com/ScrollPrize/villa/pull/1813), on 28 Sep in favour of [#1766](https://github.com/ScrollPrize/villa/pull/1766), as the same change that came first, crediting flummoxjr and me.
 - hendrikschilling reviewed [#1676](https://github.com/ScrollPrize/villa/pull/1676) and [#1682](https://github.com/ScrollPrize/villa/pull/1682) on 21 Sep and merged both on 22 Sep.
 
 ## The tool
