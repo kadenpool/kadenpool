@@ -12,7 +12,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - SurgeFok's [vesuvius-catalog-check](https://github.com/SurgeFok/vesuvius-catalog-check) checks its own detector against [#1730](https://github.com/ScrollPrize/villa/issues/1730): it finds 20, #1730 reports 20.
 - nerln re-ran [#1845](https://github.com/ScrollPrize/villa/issues/1845)'s harness on another machine, matched its fine-mesh AUC (0.896687 against 0.8967176), and used it to test three ways the renderer can combine its samples (max, mean and median); none helped.
 - AndreasHad04 checked the pipeline behind [#1867](https://github.com/ScrollPrize/villa/issues/1867) against [#1845](https://github.com/ScrollPrize/villa/issues/1845): 0.9123 on the same 178,146 validation pixels, where #1845 reports 0.912.
-- AndreasHad04 closed his own README fix, [#1813](https://github.com/ScrollPrize/villa/pull/1813), on 28 Sep in favour of [#1766](https://github.com/ScrollPrize/villa/pull/1766), as the same change that came first, crediting flummoxjr and me.
+- AndreasHad04 closed their own README fix, [#1813](https://github.com/ScrollPrize/villa/pull/1813), on 28 Sep in favour of [#1766](https://github.com/ScrollPrize/villa/pull/1766), as the same change that came first, crediting flummoxjr and me.
 - hendrikschilling reviewed [#1676](https://github.com/ScrollPrize/villa/pull/1676) and [#1682](https://github.com/ScrollPrize/villa/pull/1682) on 21 Sep and merged both on 22 Sep.
 
 ## The tool
@@ -27,7 +27,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - [#1676](https://github.com/ScrollPrize/villa/pull/1676) (merged): a region past the edge of a dataset is refused instead of written past the buffer, and every caller now checks.
 - [#1682](https://github.com/ScrollPrize/villa/pull/1682) (merged): `create_level_dataset` works under zarr 3, and `overwrite=False` no longer empties a level.
 - [#1717](https://github.com/ScrollPrize/villa/pull/1717) (open): a render partly outside its volume says how much: 47.1 % on a published surface.
-- [#1766](https://github.com/ScrollPrize/villa/pull/1766) (open) and [#1765](https://github.com/ScrollPrize/villa/issues/1765): the 2 um ink model's README window, centred on the surface, reproduces the published ink maps.
+- [#1766](https://github.com/ScrollPrize/villa/pull/1766) (open) and [#1765](https://github.com/ScrollPrize/villa/issues/1765): centring the 2 um ink model's README layer window on the surface reproduces the published ink map on PHerc0139 test regions.
 - [#1769](https://github.com/ScrollPrize/villa/pull/1769) (draft): VC3D stops seeding a bounding box from the `-1` missing-point marker.
 - [#1664](https://github.com/ScrollPrize/villa/pull/1664) (closed to stay under villa's open-PR limit; the problem is unchanged): a failed ink-label download is reported instead of a blank image.
 
@@ -58,5 +58,5 @@ transforms, and reports that ship with their data, among them a pre-registered t
 
 ---
 
-Built with Claude Code under my direction. Some of these problems began in my own runs on the published data, and
-others in other people's reports.
+Built with Claude Code under my direction. I hit some of these problems in my own runs on the published data; others
+came from other people's reports.
