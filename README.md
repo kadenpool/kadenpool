@@ -3,7 +3,7 @@
 I work with the published scroll data and fix what gets in the way of reading it: a tool that lines up
 two scans of the same scroll, fixes to the challenge's own code, problems found in its catalogue and
 transforms, and reports that ship with their data, among them a pre-registered test of how faint ink two public
-9 um ink checkpoints can detect and the first published surfaces on three First Letters scrolls.
+9 um ink checkpoints can detect, and twenty surfaces on three First Letters scrolls.
 
 ## Used by others
 
@@ -43,13 +43,13 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - [Ink negative controls](https://github.com/kadenpool/scroll-lineup/tree/main/reports/ink-negative-controls): four controls that tell a real ink reading from papyrus texture, on PHerc0846A, PHerc0813 and PHerc0211. No letters were found on any of them.
 - [A First Letters attempt on PHerc1203](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc1203-first-letters): two scans, no published transform between them, and what it took to read across. No letters were found.
 - [An ink detection floor](https://github.com/kadenpool/scroll-lineup/tree/main/reports/ink-detection-floor): real PHerc0139 letters planted into papyrus at graded strength, pre-registered, to measure the faintest ink two public 9 um checkpoints still detect. On PHerc0846B one of them detects it only from 0.87 of full strength; on PHerc0483B neither reaches a floor. The raw model maps are in two data releases.
-- The first published surfaces on [PHerc0846B](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc0846b-surfaces), [PHerc0490B](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc0490b-surfaces) and [PHerc0483B](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc0483b-surfaces), three First Letters scrolls: twenty surfaces, 156 cm2 as grown, with no hand refinement (the previews show where they jump between sheets), and a script in each folder that re-derives its numbers.
+- Surfaces on [PHerc0846B](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc0846b-surfaces), [PHerc0490B](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc0490b-surfaces) and [PHerc0483B](https://github.com/kadenpool/scroll-lineup/tree/main/reports/pherc0483b-surfaces), three First Letters scrolls with none in the open-data catalogue: twenty surfaces, 156 cm2 as grown, with no hand refinement (the previews show where they jump between sheets), and a script in each folder that re-derives its numbers. Bullo27's [First Letters survey](https://github.com/Bullo27/first-letters-survey) had published grown patches on all three, with ink-model maps, on 23 Sep (UTC), before these.
 
 ## Helping with others' work
 
 - [#1809](https://github.com/ScrollPrize/villa/issues/1809): comments on Bullo27's crash report; the fix, [#1817](https://github.com/ScrollPrize/villa/pull/1817) (merged 24 Sep, with me as co-author on three of its commits), uses my test server and my macOS run in its proof table.
-- [#1818](https://github.com/ScrollPrize/villa/pull/1818#issuecomment-5748183068): a reading test on spelufo's bicubic-interpolation branch, to put a number beside its pictures.
-- Independent checks of others' results: [corpus-ink-survey #1](https://github.com/TAUIL-Abd-Elilah/corpus-ink-survey/issues/1) and [ink9um-z-window-selection #1](https://github.com/tarikcankorkmaz00/ink9um-z-window-selection/issues/1).
+- [#1818](https://github.com/ScrollPrize/villa/pull/1818#issuecomment-5856337313): a reading test on spelufo's bicubic-interpolation branch, to put a number beside its pictures, re-run on its new head after the seam fix.
+- An independent check of others' results, [corpus-ink-survey #1](https://github.com/TAUIL-Abd-Elilah/corpus-ink-survey/issues/1), and depth data past the edge of the released surface volumes, offered in [ink9um-z-window-selection #1](https://github.com/tarikcankorkmaz00/ink9um-z-window-selection/issues/1).
 
 ## Outside villa
 
@@ -57,5 +57,5 @@ transforms, and reports that ship with their data, among them a pre-registered t
 
 ---
 
-Built with Claude Code under my direction. I found most of these problems myself while working with the
-published data, and checked the evidence for each.
+Built with Claude Code under my direction. Some of these problems began in my own runs on the published data, and
+others in other people's reports.
