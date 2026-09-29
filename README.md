@@ -13,6 +13,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - nerln re-ran [#1845](https://github.com/ScrollPrize/villa/issues/1845)'s harness on another machine, matched its fine-mesh AUC (0.896687 against 0.8967176), and used it to test three ways the renderer can combine its samples (max, mean and median); none helped.
 - AndreasHad04 checked the pipeline behind [#1867](https://github.com/ScrollPrize/villa/issues/1867) against [#1845](https://github.com/ScrollPrize/villa/issues/1845): 0.9123 on the same 178,146 validation pixels, where #1845 reports 0.912.
 - AndreasHad04 closed their own README fix, [#1813](https://github.com/ScrollPrize/villa/pull/1813), on 28 Sep in favour of [#1766](https://github.com/ScrollPrize/villa/pull/1766), as the same change that came first, crediting flummoxjr and me.
+- TAUIL-Abd-Elilah corrected [pherc1447-text-site-control](https://github.com/TAUIL-Abd-Elilah/pherc1447-text-site-control) on 29 Sep after [my issue](https://github.com/TAUIL-Abd-Elilah/pherc1447-text-site-control/issues/1): its stroke is the lower arc of the ring Bullo27 found first.
 - hendrikschilling reviewed [#1676](https://github.com/ScrollPrize/villa/pull/1676) and [#1682](https://github.com/ScrollPrize/villa/pull/1682) on 21 Sep and merged both on 22 Sep.
 
 ## The tool
