@@ -18,7 +18,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 
 ## The tool
 
-- [scroll-lineup](https://github.com/kadenpool/scroll-lineup): two public OME-Zarr scans of one scroll in, a transform in the challenge's own format out. Graded against every published transform: 13 PASS, 9 WEAK and 4 FAIL over all 26 official pairs, nothing excluded.
+- [scroll-lineup](https://github.com/kadenpool/scroll-lineup): two public OME-Zarr scans of one scroll in, a transform in the challenge's own format out. Graded against every transform published by 28 Sep: 13 PASS, 9 WEAK and 4 FAIL over all 26 official pairs, nothing excluded.
 
 ## Fixes to the challenge's code: silent wrong answers made loud
 
