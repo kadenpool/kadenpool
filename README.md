@@ -28,7 +28,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 - [#1676](https://github.com/ScrollPrize/villa/pull/1676) (merged): a region past the edge of a dataset is refused instead of written past the buffer, and every caller now checks.
 - [#1682](https://github.com/ScrollPrize/villa/pull/1682) (merged): `create_level_dataset` works under zarr 3, and `overwrite=False` no longer empties a level.
 - [#1717](https://github.com/ScrollPrize/villa/pull/1717) (closed unmerged on 6 Oct by villa's 28-day rule, not by a review): a render partly outside its volume says how much: 47.1 % on a published surface.
-- [#1766](https://github.com/ScrollPrize/villa/pull/1766) (open) and [#1765](https://github.com/ScrollPrize/villa/issues/1765): centring the 2 um ink model's README layer window on the surface reproduces the published ink map on PHerc0139 test regions.
+- [#1766](https://github.com/ScrollPrize/villa/pull/1766) (merged) and [#1765](https://github.com/ScrollPrize/villa/issues/1765): centring the 2 um ink model's README layer window on the surface reproduces the published ink map on PHerc0139 test regions.
 - [#1769](https://github.com/ScrollPrize/villa/pull/1769) (draft): VC3D stops seeding a bounding box from the `-1` missing-point marker.
 - [#1664](https://github.com/ScrollPrize/villa/pull/1664) (closed to stay under villa's open-PR limit; the problem is unchanged): a failed ink-label download is reported instead of a blank image.
 
