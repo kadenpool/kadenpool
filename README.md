@@ -24,7 +24,7 @@ transforms, and reports that ship with their data, among them a pre-registered t
 
 - [#1731](https://github.com/ScrollPrize/villa/pull/1731) (merged): surfaces whose stored bbox carries the `-1` marker were returned for heights they never touch.
 - [#1665](https://github.com/ScrollPrize/villa/pull/1665) (merged): reading the public bucket no longer needs AWS credentials, or reports that the data does not exist.
-- [#1847](https://github.com/ScrollPrize/villa/pull/1847) (open): a remote chunk fetch that fails at the seed point ends `vc_grow_seg_from_seed` with one line and exit 1, not an abort. Report: [#1846](https://github.com/ScrollPrize/villa/issues/1846).
+- [#1847](https://github.com/ScrollPrize/villa/pull/1847) (merged): a remote chunk fetch that fails at the seed point ends `vc_grow_seg_from_seed` with one line and exit 1, not an abort. Report: [#1846](https://github.com/ScrollPrize/villa/issues/1846).
 - [#1676](https://github.com/ScrollPrize/villa/pull/1676) (merged): a region past the edge of a dataset is refused instead of written past the buffer, and every caller now checks.
 - [#1682](https://github.com/ScrollPrize/villa/pull/1682) (merged): `create_level_dataset` works under zarr 3, and `overwrite=False` no longer empties a level.
 - [#1717](https://github.com/ScrollPrize/villa/pull/1717) (closed unmerged on 6 Oct by villa's 28-day rule, not by a review): a render partly outside its volume says how much: 47.1 % on a published surface.
